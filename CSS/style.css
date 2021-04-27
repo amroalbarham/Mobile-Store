@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Courgette', cursive;
+}
+
+header{
+    background-color: RGBA(211, 211, 211, 0.548);
+    width: 100%;
+    height: 90px;
+}
+header h1 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+main{
+    background-image: url(../image/NX7PC.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 750px;
+}
+
+#form{
+    position:relative;
+    text-align: center;
+    float: left;
+    background-color: RGBA(211, 211, 211, 0.6);
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin: 120px;
+    font-size: 25px;
+    height: 200px;
+}
+#User{
+    position: relative;
+    left: 5px;
+    width: 100%;
+    border-radius: 20px;
+    bottom: 25px;
+}
+#userup{
+    position: relative;
+    bottom: 15px;
+    font-size: 20px;
+}
+
+#Type{
+    position: relative;
+    left: 5px;
+    width: 100%;
+    bottom: 45px;
+    border-radius: 20px;
+}
+#typeup{
+    position: relative;
+    bottom: 40px;
+    font-size: 20px;
+}
+#submit{
+    position: relative;
+    left: 5px;
+    width: 100%;
+    border-radius: 20px;
+    bottom: 70px;
+    font-size: 15px;
+    background-color: RGB(78, 78, 78);
+}
+
+
+
+#table{
+
+    position: relative;
+    float: right;
+    background-color: RGBA(211, 211, 211, 0.6);
+    padding: 37px;
+    margin: 90px;
+    font-size: 25px;
+}
+
+footer{
+    clear: both;
+    background-color: RGBA(211, 211, 211, 0.548);
+    width: 100%;
+    height: 90px;
+}
+footer h4{
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+
+
+
+
+
+
+th{
+    border: solid white 2px;
+    background-color: RGB(39, 39, 39);
+}
+tr,td{
+    border: solid white 2px;
+    background-color:RGB(78, 78, 78);
+}
+
